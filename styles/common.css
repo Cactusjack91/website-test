@@ -30,7 +30,6 @@ header {
     position: absolute;
     width: 100%;
     height: 5px;
-    /* border-radius: 4px; */
     background-color: #fff;
     bottom: -5px;
     left: 0;
@@ -42,6 +41,12 @@ header {
 .nav a:hover::before {
   transform-origin: left;
   transform: scaleX(1);
+}
+
+@media (max-width:500px) {
+    .nav a::before {
+        height: 2.5px;
+    }
 }
 
 /* logo */
@@ -68,7 +73,7 @@ header {
     display: none;
 } */
 .nav a {
-    margin-left: 1rem;
+    margin-left: 2rem;
 }
 
 .sect1 {
