@@ -63,7 +63,8 @@
         </div>
     </div>
 
-    <main>
+    <!-- old ways to display works, very glitchy -->
+    <!-- <main>
         <div class="will-fadeIn hoverable mt">
             <img src="./images/CosmicUI@0.5x.png" alt="">
             <div class="card-content">
@@ -92,7 +93,17 @@
         <div class="will-fadeIn"></div>
         <div class="will-fadeIn"></div>
         <div class="will-fadeIn"></div>
-    </main>
+    </main> -->
+
+    <!-- section to display work -->
+    <section>
+        <div class="container reveal fade-bottom">
+            <img src="./images/CosmicUI@0.5x.png" alt="">
+        </div>
+        <div class="container reveal fade-bottom">
+            <img src="./images/CosmicUI@0.5x.png" alt="">
+        </div>
+    </section>
 
 
 
@@ -133,6 +144,8 @@
         </ul>
     </footer>
 
+
+    <!-- cursor script -->
     <script>
         "use strict";
 
@@ -172,6 +185,26 @@
                 scale: 1
             });
         }
+    </script>
+    <!-- section script -->
+    <script>
+        function reveal() {
+            var reveals = document.querySelectorAll(".reveal");
+
+            for (var i = 0; i < reveals.length; i++) {
+                var windowHeight = window.innerHeight;
+                var elementTop = reveals[i].getBoundingClientRect().top;
+                var elementVisible = 150;
+
+                if (elementTop < windowHeight - elementVisible) {
+                    reveals[i].classList.add("active");
+                } else {
+                    reveals[i].classList.remove("active");
+                }
+            }
+        }
+
+        window.addEventListener("scroll", reveal);
     </script>
 </body>
 
