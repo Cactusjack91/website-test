@@ -62,7 +62,7 @@ header {
 }
 
 .sect1 {
-  height: 110vh;
+  height: 100vh;
 }
 
 @media (max-width:500px) {

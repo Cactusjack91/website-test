@@ -1,0 +1,104 @@
+/* .about {
+    width: 80%;
+    height: 50vh;
+    margin: 5rem auto;
+    background-color: pink;
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+p {
+    font-family: 'Georgia', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+blockquote {
+    position: relative;
+    padding-left: 1.5rem;
+    font-family: 'Georgia', sans-serif;
+    font-size: 2rem;
+    line-height: 1.25;
+    letter-spacing: -0.05rem;
+}
+
+blockquote:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 6px;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 60px;
+}
+
+.content {
+    position: relative;
+    margin: 0 auto 8rem;
+    padding: 2rem;
+    width: 80%;
+}
+
+.content__inner {
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.content__inner>*+* {
+    margin-top: 1.5rem;
+}
+
+.content__inner>blockquote {
+    margin: 3rem 0;
+}
+
+.content__title {
+    font-family: 'Georgia', sans-serif;
+    font-size: 3rem;
+    line-height: 1.25;
+    letter-spacing: -0.125rem;
+    text-align: center;
+}
+
+@media (min-width: 600px) {
+    .content__title {
+        font-size: 4rem;
+    }
+}
+
+.content__author {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    width: 100%;
+    font-family: 'Georgia', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: -0.125rem;
+    text-align: center;
+}
+
+.content__author:before,
+.content__author:after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background-color: #fff;
+}
+
+.content__author:before {
+    margin-right: 1rem;
+}
+
+.content__author:after {
+    margin-left: 1rem;
+}
