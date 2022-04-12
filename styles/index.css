@@ -90,27 +90,14 @@ body .cursor__ball circle {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width:1023px){
-  .will-fadeIn {
-    width: 70%;
-  }
-
-  .cursor {
-    display: none;
-  }
-
-}
-
 /* work section */
 section {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   /* background-color: #fff; */
 }
 
 section .container {
-  /* margin: 100px; */
   width: 80%;
   max-width: 800px;
   margin: 3rem auto;

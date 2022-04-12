@@ -10,6 +10,7 @@
 }
 
 body {
+    width: auto;
     background-color: #000;
     color: #fff;
 }
@@ -43,9 +44,10 @@ blockquote:before {
 
 .content {
     position: relative;
-    margin: 0 auto 8rem;
+    margin: 5% auto;
     padding: 2rem;
     width: 80%;
+    border: 1px solid red;
 }
 
 .content__inner {
@@ -63,7 +65,7 @@ blockquote:before {
 
 .content__title {
     font-family: 'Georgia', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem;
     line-height: 1.25;
     letter-spacing: -0.125rem;
     text-align: center;
