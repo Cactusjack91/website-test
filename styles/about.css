@@ -44,10 +44,15 @@ blockquote:before {
 
 .content {
     position: relative;
-    margin: 5% auto;
+    margin: 2rem auto;
     padding: 2rem;
     width: 80%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.content img {
+    width: 100%;
+    height: auto;
 }
 
 .content__inner {
@@ -67,7 +72,7 @@ blockquote:before {
     font-family: 'Georgia', sans-serif;
     font-size: 2rem;
     line-height: 1.25;
-    letter-spacing: -0.125rem;
+    /* letter-spacing: -0.125rem; */
     text-align: center;
 }
 
@@ -81,11 +86,11 @@ blockquote:before {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     width: 100%;
     font-family: 'Georgia', sans-serif;
     font-size: 1.5rem;
-    letter-spacing: -0.125rem;
+    /* letter-spacing: -0.125rem; */
     text-align: center;
 }
 
