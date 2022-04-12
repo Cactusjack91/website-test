@@ -335,31 +335,3 @@ section .container img{
       opacity: 1;
   }
 }
-
-/* progress bar */
-.progress {
-  height: 3px;
-  width: 0%;
-  background-color: #fff;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  animation: progress 1s linear;
-}
-
-@keyframes progress {
-  to {
-      background-color: #fff;
-      width: 100%;
-  }
-}
-
-:root * {
-  /* Pause the animation */
-  animation-play-state: paused;
-  /* Bind the animation to scroll */
-  animation-delay: calc(var(--scroll) * -1s);
-  /* These last 2 properites clean up overshoot weirdness */
-  animation-iteration-count: 1;
-  animation-fill-mode: both;
-}
