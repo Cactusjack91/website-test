@@ -279,7 +279,7 @@ section .container img{
 }
 
 .active.fade-bottom {
-  animation: fade-bottom 1s ease-in;
+  animation: fade-bottom 800ms ease-in;
 }
 
 .active.fade-left {
