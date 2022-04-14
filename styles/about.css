@@ -20,6 +20,7 @@ p {
     font-size: 1.25rem;
     line-height: 1.5;
     color: #fff;
+    text-align: justify;
 }
 
 blockquote {
@@ -46,8 +47,9 @@ blockquote:before {
     position: relative;
     margin: 2rem auto;
     padding: 2rem;
-    width: 80%;
+    width: 90%;
     /* border: 1px solid red; */
+    
 }
 
 .content img {
@@ -57,7 +59,8 @@ blockquote:before {
 
 .content__inner {
     margin: 0 auto;
-    max-width: 700px;
+    max-width: 740px;
+    
 }
 
 .content__inner>*+* {
@@ -74,6 +77,7 @@ blockquote:before {
     line-height: 1.25;
     /* letter-spacing: -0.125rem; */
     text-align: center;
+    font-weight: 400;
 }
 
 @media (min-width: 600px) {
@@ -92,6 +96,21 @@ blockquote:before {
     font-size: 1.5rem;
     /* letter-spacing: -0.125rem; */
     text-align: center;
+    font-weight: 400;
+}
+
+@media (max-width: 500px) {
+    .content__title {
+        font-size: 2rem;
+    }
+
+    .content__author {
+        font-size: 0.8rem;
+    }
+
+    blockquote {
+        font-size: 1.8rem;
+    }
 }
 
 .content__author:before,
