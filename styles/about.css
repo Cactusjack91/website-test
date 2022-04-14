@@ -12,14 +12,14 @@
 body {
     width: auto;
     background-color: #000;
-    color: #fff;
+    color: #f2f2f2;
 }
 
 p {
     font-family: 'Georgia', sans-serif;
     font-size: 1.25rem;
     line-height: 1.5;
-    color: #fff;
+    color: #f2f2f2;
     text-align: justify;
 }
 
@@ -39,7 +39,7 @@ blockquote:before {
     left: 0;
     width: 6px;
     height: 100%;
-    background-color: #fff;
+    background-color: #f2f2f2;
     border-radius: 60px;
 }
 
@@ -118,7 +118,7 @@ blockquote:before {
     content: '';
     flex: 1;
     height: 2px;
-    background-color: #fff;
+    background-color: #f2f2f2;
 }
 
 .content__author:before {

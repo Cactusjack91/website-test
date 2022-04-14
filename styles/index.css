@@ -3,7 +3,7 @@ body {
 }
 /* intro */
 article {
-    color: #fff;
+    color: #f2f2f2;
     text-align: center;
     position: absolute;
     top: 50%;
@@ -54,7 +54,7 @@ body .cursor__ball circle {
 
 .marquee {
   margin-top: 5vh;
-  color: #fff;
+  color: #f2f2f2;
   position: relative;
   overflow: hidden;
   --offset: 20vw;
@@ -94,7 +94,6 @@ body .cursor__ball circle {
 section {
   justify-content: center;
   align-items: center;
-  /* background-color: #fff; */
 }
 
 section .container {
@@ -131,7 +130,7 @@ section .container img{
 }
 
 .active.fade-bottom {
-  animation: fade-bottom 800ms ease-in;
+  animation: fade-bottom 1s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .active.fade-left {
