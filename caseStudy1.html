@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- end of favicon -->
+    <link href="https://fonts.cdnfonts.com/css/georgia" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <!-- <link rel="stylesheet" href="./styles/index.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="./js/index.js"></script> -->
+</head>
+
+<body>
+    <div class="sect1">
+        <!-- header -->
+        <header>
+
+            <!-- left side of header -->
+            <div class="logo">
+                <img src="./images/logo.png" alt="Logo">
+            </div>
+
+            <!-- right side of header  -->
+            <div class="nav">
+                <a href="./progress.html" class="hoverable">About</a>
+                <a href="#" class="hoverable">Works</a>
+                <!-- <a href="#" class="hoverable">Contact</a> -->
+            </div>
+
+        </header>
+
+        <section class="content">
+            <article class="content__inner">
+                <h1 class="content__title">Superstar Automart Website Redesigned</h1>
+                <h3 class="content__author">By Aden Chan</h3>
+                <img src="./images/SuperstarPresentation.png" alt="">
+                <p><i>Superstar Car Accessories</i> primarily involved in the car accessories wholesaling and retailing
+                    business. More, the products and services involve sale and installation of car alarm systems, car
+                    audio and video systems, car body kits and car air-conditioning services, cash and carry car
+                    accessories items and car care products supplies. </p>
+                <p>However, the company’s website is outdated and has bad UIUX design such as poor colour combination,
+                    mediocre font pairing, bad typography, messy navigation, lack of animation and these issues causing
+                    user to have bad impression towards company and user also unable to scan the website quickly and
+                    retrieve the information they want.</p>
+
+                <img src="./images/SuperstarPresentation.png" alt="">
+                <!-- <blockquote>When you do it your way you can go anywhere you choose.</blockquote> -->
+                <p>During the times I worked as UI/UX design contractor at Superstar Car Accessories, I redesigned and
+                    modernize the company website with better font pairing, typography, colour combination, navigation
+                    and get rid of redundant information.
+                </p>
+                <blockquote> Better font pairing and typography allow user to scan the
+                    website with ease.</blockquote>
+                <img src="./images/SuperstarPresentation.png" alt="">
+                <p>More, I also delivered a full set of visual design system for the company. By
+                    having visual design system able to makes user interfaces consistent and increase user familiarity
+                    and ultimately reduce the user learning curve.</p>
+            </article>
+        </section>
+        <!-- scroll icon -->
+        <div class="scroll-down">
+            <div class="scroll-down-text">Scroll</div>
+            <div class="scroll-down-bar"></div>
+        </div>
+    </div>
+
+
+
+    <!-- cursor -->
+    <!-- <div class="cursor">
+        <div class="cursor__ball cursor__ball--big ">
+            <svg height="30" width="30">
+                <circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+            </svg>
+        </div>
+
+        <div class="cursor__ball cursor__ball--small">
+            <svg height="10" width="10">
+                <circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+            </svg>
+        </div>
+    </div> -->
+    <!-- cursor script -->
+    <!-- <script>
+        "use strict";
+
+        // pointer event
+        const $bigBall = document.querySelector('.cursor__ball--big');
+        const $smallBall = document.querySelector('.cursor__ball--small');
+        const $hoverables = document.querySelectorAll('.hoverable'); // Listeners
+
+        document.body.addEventListener('mousemove', onMouseMove);
+
+        for (let i = 0; i < $hoverables.length; i++) {
+            $hoverables[i].addEventListener('mouseenter', onMouseHover);
+            $hoverables[i].addEventListener('mouseleave', onMouseHoverOut);
+        } // Move the cursor
+
+
+        function onMouseMove(e) {
+            TweenMax.to($bigBall, .4, {
+                x: e.clientX - 15,
+                y: e.clientY - 15
+            });
+            TweenMax.to($smallBall, .1, {
+                x: e.clientX - 5,
+                y: e.clientY - 7
+            });
+        } // Hover an element
+
+
+        function onMouseHover() {
+            TweenMax.to($bigBall, .3, {
+                scale: 4
+            });
+        }
+
+        function onMouseHoverOut() {
+            TweenMax.to($bigBall, .3, {
+                scale: 1
+            });
+        }
+    </script> -->
+</body>
+
+</html>
