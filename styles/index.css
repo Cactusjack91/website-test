@@ -3,7 +3,7 @@ body {
 }
 /* intro */
 article {
-    color: #f2f2f2;
+    color: var(--main-text-color);
     text-align: center;
     position: absolute;
     top: 50%;
@@ -54,12 +54,13 @@ body .cursor__ball circle {
 
 .marquee {
   margin-top: 5vh;
-  color: #f2f2f2;
+  color: var(--main-text-color);
   position: relative;
   overflow: hidden;
   --offset: 20vw;
   --move-initial: calc(-25% + var(--offset));
   --move-final: calc(-50% + var(--offset));
+  opacity: 80%;
 }
 
 .marquee__inner {
