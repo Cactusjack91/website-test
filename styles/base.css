@@ -1,6 +1,8 @@
 :root {
     --main-bg-color: #fff;
     --main-text-color: #000;
+    /* --main-bg-color: hsl(35 50% 96%);
+    --main-text-color: hsl(200 10% 10%); */
 }
 * {
     margin: 0;
